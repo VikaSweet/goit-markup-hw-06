@@ -462,6 +462,19 @@
      <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" data-modal-close type="button">
+          <form name="signup_form" autocomplete="on" novalidate>
+            <label>
+              Email
+              <input type="email" name="email" />
+            </label>
+          
+            <label>
+              Password
+              <input type="password" name="password" />
+            </label>
+          
+            <button type="submit">Submit</button>
+          </form>
           <svg class="close-modal-icon" width="11";
           height="11">
             <use href="./images/btn_close.svg#icon-close_btn"></use>
