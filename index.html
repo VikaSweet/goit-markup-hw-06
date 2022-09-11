@@ -462,18 +462,21 @@
      <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" data-modal-close type="button">
-          <form name="signup_form" autocomplete="on" novalidate>
-            <label>
-              Email
-              <input type="email" name="email" />
+          <form class="signup_form" name="signup_form" autocomplete="on" novalidate>
+            <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
+            <label class="name-label labels-signup">
+              Ім'я
+              <input class="contact-form-input" type="firstname" name="firstname" />
             </label>
-          
-            <label>
-              Password
-              <input type="password" name="password" />
+             <label class="phone-label labels-signup">
+              Телефон
+              <input class="contact-form-input" type="phone" name="phone" />
             </label>
-          
-            <button type="submit">Submit</button>
+            <label class="email-label labels-signup">
+              Пошта
+              <input class="contact-form-input" type="imail" name="email" />
+            </label>
+            <button class="button-form" type="submit">Submit</button>
           </form>
           <svg class="close-modal-icon" width="11";
           height="11">

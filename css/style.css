@@ -315,6 +315,41 @@ position: absolute;
   justify-content: center;
   cursor: pointer;
 }
+.signup_form {
+
+}
+.text-form {
+
+}
+.email-label {
+
+}
+.labels-signup {
+  box-sizing: border-box;
+  position: absolute;
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  top: 314px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  
+}
+.phone-label {
+
+}
+.button-form {
+display: flex;
+justify-content: center;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 712px;
+color:#ffffff
+background-color: var(#2196f3);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
 /*--best-item---------*/
 .section-best-item {
   background-color: var(--background-origin);
