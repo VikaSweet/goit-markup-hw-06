@@ -316,12 +316,11 @@ position: absolute;
   cursor: pointer;
 }
 .signup_form {
-  position: absolute;
-  width: 528px;
+  width: 448px;
   height: 581px;
-  left: 536px;
-  top: 221px;
-  
+  left: auto;
+  top: auto;
+
 }
 .text-form {
 
@@ -331,15 +330,15 @@ position: absolute;
 }
 .labels-signup {
   box-sizing: border-box;
-  position: absolute;
   width: 448px;
-  
+  margin-left: auto;
+  margin-bottom: 4px;
 }
 .contact-form-input {
   width: 100%;
   height: 40px;
   left: auto;
-  button: 28px;
+  bottom: 28px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }

@@ -461,27 +461,39 @@
      </footer>
      <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" data-modal-close type="button">
-          <form class="signup_form" name="signup_form" autocomplete="on" novalidate>
-            <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
-            <label class="name-label labels-signup">
-              Ім'я
-              <input class="contact-form-input" type="firstname" name="firstname" />
-            </label>
-             <label class="phone-label labels-signup">
-              Телефон
-              <input class="contact-form-input" type="phone" name="phone" />
-            </label>
-            <label class="email-label labels-signup">
-              Пошта
-              <input class="contact-form-input" type="imail" name="email" />
-            </label>
-            <label>
-              Коментар
-            <textarea class="textarea_contacts-form" name="" id="" cols="30" rows="10"></textarea>
+        <form class="signup_form" name="signup_form" autocomplete="on" novalidate>
+          <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
+          <label class="name-label labels-signup">
+            Ім'я
+            <input class="contact-form-input" type="firstname" name="firstname" />
+            <svg class="contacts-form-icon" width="12";
+            height="12">
+              <use href="./images/networks_icons.svg#icon-person"></use>
+            </svg> 
           </label>
-            <button class="button-form" type="submit">Submit</button>
-          </form>
+           <label class="phone-label labels-signup">
+            Телефон
+            <input class="contact-form-input" type="phone" name="phone" />
+            <svg class="contacts-form-icon" width="12";
+            height="12">
+              <use href="./images/networks_icons.svg#icon-phone"></use>
+            </svg> 
+          </label>
+          <label class="email-label labels-signup">
+            Пошта
+            <input class="contact-form-input" type="imail" name="email" />
+            <svg class="contacts-form-icon" width="12";
+            height="12">
+              <use href="./images/networks_icons.svg#icon-mail"></use>
+            </svg> 
+          </label>
+          <label>
+            Коментар
+          <textarea class="textarea_contacts-form" name="" id="" cols="30" rows="10"></textarea>
+        </label>
+          <button class="button-form" type="submit">Submit</button>
+        </form>
+        <button class="modal-close-btn" data-modal-close type="button">
           <svg class="close-modal-icon" width="11";
           height="11">
             <use href="./images/btn_close.svg#icon-close_btn"></use>
