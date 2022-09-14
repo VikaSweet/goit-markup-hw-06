@@ -471,37 +471,45 @@
         <form class="signup_form" name="signup_form" autocomplete="on" novalidate>
           <label class="name-label labels-signup">
             <span class="text-form-contact">Ім'я</span>
-            <div class="modal-input-wrapper">
+            <span class="modal-input-wrapper">
             <input class="contact-form-input" type="text" name="user-name" required />
                <svg class="contacts-form-icon" width="12";
             height="12">
               <use href="./images/networks_icons.svg#icon-person"></use>
             </svg>
-          </div> 
+          </span> 
           </label>
            <label class="phone-label labels-signup">
             <span class="text-form-contact">Телефон</span>
+            <span class="modal-input-wrapper">
             <input class="contact-form-input" type="tel" name="user-phone" />
             <svg class="contacts-form-icon" width="12";
             height="12">
               <use href="./images/networks_icons.svg#icon-phone"></use>
-            </svg> 
+            </svg>
+          </span> 
           </label>
           <label class="email-label labels-signup">
             <span class="text-form-contact">Пошта</span>
+            <span class="modal-input-wrapper">
             <input class="contact-form-input" type="email" name="user-email" />
             <svg class="contacts-form-icon" width="12";
             height="12">
               <use href="./images/networks_icons.svg#icon-mail"></use>
-            </svg> 
+            </svg>
+          </span> 
           </label>
           <label>
             <span class="text-form-contact"> Коментар</span>
           <textarea class="textarea_contacts-form" name="user-massege" placeholder="Введіть данні"></textarea>
         </label>
         <label class="checkbox-contact-form">
+          <span class="chekbox-wrapper">
           <input type="checkbox" class="check-form-required"/> 
           Погоджуюся з розсилкою та приймаю <a href="Умови договору">Умови договору</a>
+        <svg class="checbox-svg">
+          <use class="checkbox_svg_icon" href="./images/networks_icons.svg#icon-check_gal"></use></svg>
+        </span>
         </label>
           <button class="button-form text-button" type="submit">Надіслати</button>
         </form>
