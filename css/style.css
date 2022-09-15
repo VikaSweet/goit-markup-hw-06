@@ -866,10 +866,7 @@ margin-bottom: 9px;
    }
 /*--------footer-form----------*/
 .title-form-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   margin-bottom: 20px;
+  margin-bottom: 20px;
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
@@ -878,11 +875,13 @@ margin-bottom: 9px;
   text-transform: uppercase;
   color: #FFFFFF;
   }
+
 .footer_form {
 display: flex;
 justify-content: center;
 align-items: center;
 width: 570px;
+margin-left: 93px;
 
 }
  .email-label {
