@@ -867,6 +867,7 @@ margin-bottom: 9px;
 /*--------footer-form----------*/
 .title-form-footer {
   margin-bottom: 20px;
+  margin-left: 183px;
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
@@ -878,11 +879,8 @@ margin-bottom: 9px;
 
 .footer_form {
 display: flex;
-justify-content: center;
-align-items: center;
 width: 570px;
 margin-left: 93px;
-
 }
  .email-label {
 display: flex;
