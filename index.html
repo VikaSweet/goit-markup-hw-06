@@ -458,7 +458,22 @@
       </ul>
      </div>
      </div>
+      <form class="footer_form" name="footer_form" autocomplete="on" novalidate>
+        <p class="title-form-footer">Піпишіться на розсилку</p>
+        <label class="email-label">
+       <input class="email-form-input" type="email" name="email" required placeholder="Введіть данні" />
+        </label>
+      <button class="button-form-footer text-button-footer" type="submit">Надіслати
+        <svg class="footer-form-svg" width="24" height="24"> 
+          <use href="./images/networks_icons.svg#icon-arrow_button">
+          </use>
+          </svg>
+      </button>
+    </form>
      </footer>
+
+     <!------Modal----->
+
      <div class="backdrop" data-modal>
       <div class="modal">
           <button class="modal-close-btn" data-modal-close type="button">
@@ -489,7 +504,7 @@
             </svg>
           </span> 
           </label>
-          <label class="email-label labels-signup">
+          <label class="labels-signup">
             <span class="text-form-contact">Пошта</span>
             <span class="modal-input-wrapper">
             <input class="contact-form-input" type="email" name="user-email" />
@@ -504,13 +519,14 @@
           <textarea class="textarea_contacts-form" name="user-massege" placeholder="Введіть данні"></textarea>
         </label>
         <label class="checkbox-contact-form">
-          <span class="chekbox-wrapper">
+          <span class="checkbox-wraper">
           <input type="checkbox" class="check-form-required"/> 
-          Погоджуюся з розсилкою та приймаю <a href="Умови договору">Умови договору</a>
-        <svg class="checbox-svg">
-          <use class="checkbox_svg_icon" href="./images/networks_icons.svg#icon-check_gal"></use></svg>
+          <svg class="checkbox-svg" width="11" hight="8">
+            <use class="checkbox_svg_icon" href="./images/networks_icons.svg#icon-check_gal"></use>
+          </svg>
         </span>
-        </label>
+          Погоджуюся з розсилкою та приймаю <a href="Умови договору">Умови договору</a>
+             </label>
           <button class="button-form text-button" type="submit">Надіслати</button>
         </form>
       </div>
