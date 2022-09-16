@@ -865,9 +865,12 @@ margin-bottom: 9px;
   background-color: var(--accent-color);
    }
 /*--------footer-form----------*/
+
+.form-footer-contaner {
+  margin-right: 215px;
+}
 .title-form-footer {
   margin-bottom: 20px;
-  margin-left: 183px;
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
