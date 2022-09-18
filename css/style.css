@@ -437,7 +437,7 @@ margin-bottom: 4px;
   content: "";
 position: absolute;
 background: #FFFFFF;
-fill:#FFFFFF ;
+color: #FFFFFF;
 border: 0.2px solid #FFFFFF;
 cursor: pointer;
 margin-right: 9px;
@@ -445,6 +445,7 @@ transform: background-color var(--timing-function);
 }
 .check-form-required:checked + .checbox-svg {
   background-color: var(--accent-color);
+  color: #FFFFFF;
   }
 .check-form-required {
   display: none;
@@ -461,6 +462,8 @@ letter-spacing: 3%
   align-items: center;
   justify-content: center;
 margin-left: 7px;
+min-width: 400px;
+padding-left: 0;
 }
 /*--best-item---------*/
 .section-best-item {
