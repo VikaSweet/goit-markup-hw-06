@@ -445,7 +445,7 @@ transform: background-color var(--timing-function);
 .check-form-required:checked + .checbox-svg {
   background-color: var(--accent-color);
   }
-.checkbox-svg-icon {
+.check-form-required {
   display: none;
 }
 /*--best-item---------*/
