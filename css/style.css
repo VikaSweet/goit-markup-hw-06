@@ -447,7 +447,7 @@ transform: background-color var(--timing-function);
   background-color: var(--accent-color);
   }
 .checkbox_svg_icon {
-  displane: none;
+  display: none;
 }
 /*--best-item---------*/
 .section-best-item {
