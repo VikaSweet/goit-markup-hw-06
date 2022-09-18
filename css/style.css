@@ -443,7 +443,7 @@ border-radius: 3px;
 .checkbox-svg-icon {
   display: none;
 }
-.check-form-required:checked + .checkbox-svg .checbox-svg {
+.check-form-required:checked + .checkbox-svg.checbox-svg {
   display: block;
 }
 .text-check { 
