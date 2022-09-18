@@ -436,7 +436,7 @@ border: 0.2px solid #FFFFFF;
 cursor: pointer;
 border-radius: 3px;
 }
-.check-form-required:checked + .checbox-svg {
+.check-form-required:checked + .checkbox-svg {
   background-color: var(--accent-color);
     }
 
@@ -444,8 +444,11 @@ border-radius: 3px;
   display: none;
   fill: #FFFFFF;
 }
-.check-form-required:checked + .checkbox-svg.checbox-svg {
+.check-form-required:checked + .checkbox-svg .checkbox-svg-icon {
   display: block;
+}
+.check-form-required:focus + .checkbox-svg .checkbox-svg-icon {
+  box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.065);
 }
 .text-check { 
 font-family: var(--primary-font-family);
