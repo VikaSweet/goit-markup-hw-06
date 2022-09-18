@@ -319,6 +319,16 @@ position: absolute;
   justify-content: center;
   cursor: pointer;
 }
+.close-modal-icon {
+  fill: currentColor;
+  transition: fill var(--timing-function);
+}
+.close-modal-icon: :hover {
+fill: var(--accent-color);
+}
+.modal-close-btn:focus .close-modal-icon{
+  color: var(--accent-color);
+  }
 /*------Modal-form----*/
 .signup_form {
   display: flex;
