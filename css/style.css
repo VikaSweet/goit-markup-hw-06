@@ -434,6 +434,7 @@ margin-bottom: 4px;
   position: inherit;
 }
 .checkbox-svg {
+  content: "";
 position: absolute;
 background: #FFFFFF;
 fill:#FFFFFF ;
@@ -449,6 +450,9 @@ transform: background-color var(--timing-function);
   display: none;
 }
 .text-check { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 margin-left: 7px;
 font-family: var(--primary-font-family);
 font-style: regular;
