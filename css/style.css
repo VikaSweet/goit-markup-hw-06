@@ -448,7 +448,7 @@ transform: background-color var(--timing-function);
   background-color: var(--accent-color);
   border: var(--accent-color);
   }
-.check-form-required {
+.checkbox-svg-icon {
   display: none;
 }
 .text-check { 
