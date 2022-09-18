@@ -866,9 +866,10 @@ margin-bottom: 9px;
    }
 /*--------footer-form----------*/
 
+.form-footer-contaner {
+  margin-left: 93px;
+}
 .title-form-footer {
- display: flex;
- margin-left: 93px;
   margin-bottom: 20px;
   font-family: var(--primary-font-family);
   font-weight: 700;
@@ -882,7 +883,6 @@ margin-bottom: 9px;
 .footer_form {
 display: flex;
 width: 570px;
-margin-left: 93px;
 }
  .email-label {
 display: flex;
