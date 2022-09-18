@@ -460,6 +460,9 @@ font-size: 14px;
 line-height: 1.72;
 letter-spacing: 3%
 }
+.check-link {
+  
+}
 /*--best-item---------*/
 .section-best-item {
   background-color: var(--background-origin);
