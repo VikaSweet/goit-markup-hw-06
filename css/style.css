@@ -369,6 +369,7 @@ display: block;
   bottom: 28px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  transform: border var(--timing-function);
 }
 .contacts-form-icon {
   position: absolute;
@@ -377,10 +378,11 @@ display: block;
   transform: translateY(-50%);
   display: block;
   fill: currentColor;
-  transition: fill var(--timing-function);
+  transition: fill var(--timing-function); 
   }
 .contact-form-input:focus + .contacts-form-icon {
 fill: var(--accent-color);
+border: var(--accent-color);
 }
 .text-form-contact {
 display: block;
@@ -434,14 +436,16 @@ margin-bottom: 4px;
 .checkbox-svg {
 position: absolute;
 background: #FFFFFF;
+fill:#FFFFFF ;
 border: 0.2px solid #FFFFFF;
 fill: #212121;
 cursor: pointer;
 margin-right: 9px;
+transform: background-color var(--timing-function);
 }
 .check-form-required:checked + .checbox-svg {
   background-color: var(--accent-color);
-}
+  }
 .checkbox_svg_icon {
   displane: none;
 }
