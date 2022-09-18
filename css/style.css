@@ -323,7 +323,7 @@ position: absolute;
   fill: currentColor;
   transition: fill var(--timing-function);
 }
-.close-modal-icon: :hover {
+.close-modal-icon:hover {
 fill: var(--accent-color);
 }
 .modal-close-btn:focus .close-modal-icon{
