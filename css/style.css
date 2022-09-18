@@ -450,18 +450,17 @@ transform: background-color var(--timing-function);
   display: none;
 }
 .text-check { 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-margin-left: 7px;
 font-family: var(--primary-font-family);
 font-style: regular;
 font-size: 14px;
 line-height: 1.72;
 letter-spacing: 3%
 }
-.check-link {
-  
+.check-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin-left: 7px;
 }
 /*--best-item---------*/
 .section-best-item {
