@@ -430,7 +430,10 @@ margin-bottom: 4px;
   line-height: 1.88;
   letter-spacing: 0.06em; 
 }
-
+.check-form-required {
+  appearance: none;
+  position: absolute;
+}
 .checkbox-svg {
 border: 0.2px solid #FFFFFF;
 cursor: pointer;
