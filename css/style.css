@@ -448,6 +448,9 @@ transform: background-color var(--timing-function);
 .check-form-required {
   display: none;
 }
+.text-check { 
+  margin-left: 7px;
+}
 /*--best-item---------*/
 .section-best-item {
   background-color: var(--background-origin);
