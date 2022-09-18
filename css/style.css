@@ -430,24 +430,16 @@ margin-bottom: 4px;
   line-height: 1.88;
   letter-spacing: 0.06em; 
 }
-.checkbox-wraper {
-  position: inherit;
-}
+
 .checkbox-svg {
-  content: "";
-position: absolute;
-background: #FFFFFF;
-fill: #FFFFFF;
 border: 0.2px solid #FFFFFF;
 cursor: pointer;
-border-radius: 50%;
-margin-right: 9px;
-transform: background-color var(--timing-function);
+border-radius: 3px;
 }
 .check-form-required:checked + .checbox-svg {
   background-color: var(--accent-color);
-  border: var(--accent-color);
-  }
+    }
+
 .checkbox-svg-icon {
   display: none;
 }
@@ -458,14 +450,7 @@ font-size: 14px;
 line-height: 1.72;
 letter-spacing: 3%
 }
-.check-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-margin-left: 7px;
-min-width: 400px;
-padding-left: 0;
-}
+
 /*--best-item---------*/
 .section-best-item {
   background-color: var(--background-origin);
