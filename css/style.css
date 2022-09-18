@@ -867,6 +867,8 @@ margin-bottom: 9px;
 /*--------footer-form----------*/
 
 .title-form-footer {
+ display: flex;
+ margin-left: 93px;
   margin-bottom: 20px;
   font-family: var(--primary-font-family);
   font-weight: 700;
