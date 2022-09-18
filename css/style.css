@@ -437,15 +437,16 @@ margin-bottom: 4px;
   content: "";
 position: absolute;
 background: #FFFFFF;
-color: #FFFFFF;
+fill: #FFFFFF;
 border: 0.2px solid #FFFFFF;
 cursor: pointer;
+border-radius: 50%;
 margin-right: 9px;
 transform: background-color var(--timing-function);
 }
 .check-form-required:checked + .checbox-svg {
   background-color: var(--accent-color);
-  color: #FFFFFF;
+  border: var(--accent-color);
   }
 .check-form-required {
   display: none;
