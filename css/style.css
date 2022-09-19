@@ -422,7 +422,7 @@ margin-bottom: 4px;
   justify-content: center;
 }
   .text-button-modal {
-  padding-top: 10px;
+  padding: 10px 52px;
   color: #FFFFFF;
   font-family: var(--primary-font-family);
   font-weight: 700;
