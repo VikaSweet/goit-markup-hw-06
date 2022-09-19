@@ -449,7 +449,7 @@ border-radius: 3px;
   display: block;
 }
 .check-form-required:focus + .checkbox-svg .checkbox-svg-icon {
-  box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.065);
+  box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.05);
 }
 .text-check { 
 font-family: var(--primary-font-family);
