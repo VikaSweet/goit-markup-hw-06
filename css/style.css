@@ -421,7 +421,7 @@ margin-bottom: 4px;
   justify-content: center;
 }
 
-  .text-button {
+  .text-button-modal {
   color: #FFFFFF;
   font-family: var(--primary-font-family);
   font-weight: 700;
