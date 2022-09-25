@@ -962,8 +962,8 @@ color: rgba(255, 255, 255, 0.6);
 .button-form-footer {
   position: relative;
 display: block;
-width: 200px;
-height: 50px;
+min-width: 200px;
+min-height: 50px;
 margin-left: 12px;
 border: none;
 background: #2196F3;
@@ -972,22 +972,27 @@ border-radius: 4px;
 cursor: pointer;
 }
 .text-button-footer {
+  position: absolute;
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  margin-left: 28px;
+  margin-right: 10px;
+
   }
 .footer-form-svg {
+  position: absolute;
   right: 28px;
    bottom: auto;
   fill: #FFFFFF;
   top: 50%;
   transform: translateY(-50%);
   display: block;
-  margin-left: 10px;
-}
+  margin-right: 13px;
+  }
 
 /*--------PORTFOLIO------------*/
 
