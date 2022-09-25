@@ -978,7 +978,6 @@ cursor: pointer;
   line-height: 30px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
-  margin-right: 10px;
   }
 .footer-form-svg {
   position: absolute;
@@ -987,6 +986,8 @@ cursor: pointer;
   fill: #FFFFFF;
   top: 50%;
   transform: translateY(-50%);
+  display: block;
+  margin-left: 10px;
 }
 
 /*--------PORTFOLIO------------*/
